@@ -14,7 +14,7 @@ def driver():
     desired_caps = {}
     desired_caps['platformName'] = 'Android'
     desired_caps['deviceName'] = 'Android'
-    desired_caps['app'] = str(Path().absolute()) + r'\app\app-debug.apk'
+    desired_caps['app'] = str(Path().absolute()) + r'/app/app-debug.apk'
 
     logger.info('launching the app')
     driver = webdriver.Remote(get_appium_server_address(), desired_caps)
