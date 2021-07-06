@@ -21,7 +21,7 @@ The application tests the general function of a debug app, which is saved in app
 
 ## Running the test
 ### Prerequisites
-- a real or virtual android device is connected to the system;
+- a real or virtual android device is connected to the system; (please allow "Change WLAN connectivity" in Appium Settings if you use a real device)
 - python3 is installed in the system;  
 - appium server is running;   
 - if appium server address is not http://localhost:4723/wd/hub, an environment variable APPIUM_SERVER_ADDRESS needs
