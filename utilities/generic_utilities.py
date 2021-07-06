@@ -14,5 +14,5 @@ def generate_a_random_rating():
 
 
 def get_appium_server_address():
-    address = os.environ.get('APPIUM_SERVER_ADDRESS','http://localhost:4723/wd/hub')
+    address = os.environ.get('APPIUM_SERVER_ADDRESS', 'http://localhost:4723/wd/hub')
     return address

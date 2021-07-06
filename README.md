@@ -22,10 +22,10 @@ The application tests the general function of a debug app, which is saved in app
 ## Running the test
 ### Prerequisites
 - a real or virtual android device is connected to the system;
-- python is installed;  
-- appium server is on;   
-- if appium server address is not http://localhost:4723/wd/hub, and environment variable APPIUM_SERVER_ADDRESS needs
-to be set as the address  
+- python3 is installed in the system;  
+- appium server is running;   
+- if appium server address is not http://localhost:4723/wd/hub, an environment variable APPIUM_SERVER_ADDRESS needs
+to be set to the address  
 e.g.  
 in windows: $ set APPIUM_SERVER_ADDRESS={server address},   
 in linux: $ export APPIUM_SERVER_ADDRESS={server address}
